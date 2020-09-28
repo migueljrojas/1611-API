@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_section_services",
+  "info": {
+    "name": "Services",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "Service": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.service-item"
+    },
+    "Info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.title-and-text"
+    }
+  }
+}

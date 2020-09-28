@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_project_tags",
+  "info": {
+    "name": "ProjectTag",
+    "icon": "greater-than"
+  },
+  "options": {},
+  "attributes": {
+    "tagName": {
+      "type": "string"
+    }
+  }
+}

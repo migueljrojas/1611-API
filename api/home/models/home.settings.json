@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "HomeHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.hero"
+    },
+    "HomeServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.services"
+    },
+    "Projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.project-slide"
+    },
+    "homeAboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.about-us"
+    },
+    "ProjectsTitle": {
+      "type": "string"
+    }
+  }
+}

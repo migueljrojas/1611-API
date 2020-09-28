@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_project_slides",
+  "info": {
+    "name": "ProjectSlide",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "Category": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.category"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "ProjectTag": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.project-tag"
+    },
+    "ProjectLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

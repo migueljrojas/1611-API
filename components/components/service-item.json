@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_service_items",
+  "info": {
+    "name": "ServiceItem",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

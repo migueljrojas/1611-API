@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_section_aboutuses",
+  "info": {
+    "name": "AboutUs",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.title-and-text"
+    }
+  }
+}

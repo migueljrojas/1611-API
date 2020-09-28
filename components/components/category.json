@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_categories",
+  "info": {
+    "name": "Category",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "categoryName": {
+      "type": "string"
+    }
+  }
+}
