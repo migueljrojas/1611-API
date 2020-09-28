@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "cross-env": "^7.0.2",
     "knex": "<0.20.0",
     "pg": "^8.3.3",
     "sqlite3": "latest",
